@@ -9,6 +9,8 @@
 </ul>
 Here is what we create in the articles:  
 ![Meal Prep](/image/meal-prep.png?raw=true "Meal Prep")
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+<a href="image/meal-prep.png">meal </a>
 
 ## Project setup
 ```
