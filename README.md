@@ -1,4 +1,5 @@
 # project-meal-prep
+<p>This project is separate in four-part series  to create this project I have used Vue-Router, Vuetify and Vuex.</p>
 
 ## Project setup
 ```
