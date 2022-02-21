@@ -7,6 +7,8 @@
    <li>Part 1: Installing Vue and Building an SPA using Vuetify and Vue Router</li>
     <li>Part 2: Using Vue Router</li>
 </ul>
+Here is what we create in the articles:  
+![Meal Prep](/image/meal-prep.png?raw=true "Meal Prep")
 
 ## Project setup
 ```
