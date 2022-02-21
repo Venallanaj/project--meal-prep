@@ -1,5 +1,7 @@
 # project-meal-prep
-<p>This project is separate in four-part series  to create this project I have used Vue-Router, Vuetify and Vuex.</p>
+<p>This project is separate in four-part series  to create this project I have used Vue-Router, Vuetify and Vuex.</p> </br>
+<p>This article will help you to understend how vuejs works with commponent  vuetify  to building a Vue application. </p>
+
 
 ## Project setup
 ```
