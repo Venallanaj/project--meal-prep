@@ -7,10 +7,16 @@
    <li>Part 1: Installing Vue and Building an SPA using Vuetify and Vue Router</li>
     <li>Part 2: Using Vue Router</li>
 </ul>
-Here is what we create in the articles:  
-![Meal Prep](/image/meal-prep.png?raw=true "Meal Prep")
-<a href="https://www.w3schools.com">Visit W3Schools</a>
-<a href="./image/meal-prep.png">meal </a>
+
+<hr>
+<h2>Technology Used</h2>
+<ul>
+        <li>Vue.js</li>
+        <li>Vue.js</li>
+        <li>Vuex</li>
+        <li>Vuetify</li>
+        <li>Firebase</li>
+</ul>
 
 ## Project setup
 ```
