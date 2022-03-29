@@ -1,21 +1,25 @@
 <template>
     <v-container grid-list-lg>
         <v-layout row>
-            <v-flex xs12 class="text-md-center display-1 font-weight-black my-5">Available Meal Plans</v-flex>
+            <v-flex xs12 class="text-md-center display-1 font-weight-black my-5"
+                >Available Meal Plans</v-flex
+            >
         </v-layout>
 
-         <v-layout row wrap class="meal-plans">
-             <v-flex xs12 sm12 md4>
-                 <v-card >
-                        <v-responsive>
+        <v-layout row wrap class="meal-plans">
+            <v-flex xs12 sm12 md4>
+                <v-card>
+                    <v-responsive>
                         <v-img
                             src="http://source.unsplash.com/hjCA3ecCXAQ"
-                            height="500px" >
+                            height="500px"
+                        >
                             <v-container fill-height fluid>
                                 <v-layout fill-height>
                                     <v-flex xs12 align-end flexbox>
                                         <span class="headline white--text"
-                                            >KETO</span>
+                                            >KETO</span
+                                        >
                                     </v-flex>
                                 </v-layout>
                             </v-container>
@@ -23,7 +27,11 @@
                     </v-responsive>
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0 black--text font-weight-regular">Keto</h3>
+                            <h3
+                                class="headline mb-0 black--text font-weight-regular"
+                            >
+                                Keto
+                            </h3>
                             <div class="black--text">
                                 The Keto diet is a high-fat, adequate-protein,
                                 low-carbohydrate diet. The diet forces the body
@@ -33,7 +41,7 @@
                         </div>
                     </v-card-text>
 
-                     <v-card-actions v-if="['menu'].includes($route.name)">
+                    <v-card-actions v-if="['menu'].includes($route.name)">
                         <v-btn
                             outline
                             block
@@ -44,10 +52,9 @@
                             Select This Plan</v-btn
                         >
                     </v-card-actions>
-
-                 </v-card>
-             </v-flex>
-               <v-flex xs12 sm12 md4>
+                </v-card>
+            </v-flex>
+            <v-flex xs12 sm12 md4>
                 <v-card>
                     <v-responsive>
                         <v-img
@@ -68,8 +75,12 @@
 
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0 black--text font-weight-regular">Paleo</h3>
-                            <div class="black--text "> 
+                            <h3
+                                class="headline mb-0 black--text font-weight-regular"
+                            >
+                                Paleo
+                            </h3>
+                            <div class="black--text">
                                 The Paleo diet requires the predominant
                                 consumption of foods presumed to have been the
                                 only foods available to or consumed by humans
@@ -91,7 +102,7 @@
                     </v-card-actions>
                 </v-card>
             </v-flex>
-                  <v-flex xs12 sm12 md4>
+            <v-flex xs12 sm12 md4>
                 <v-card>
                     <v-responsive>
                         <v-img
@@ -112,8 +123,12 @@
 
                     <v-card-text>
                         <div>
-                            <h3 class=" headline mb-0 black--text font-weight-regular">Vegan</h3>
-                               <div class="black--text "> 
+                            <h3
+                                class="headline mb-0 black--text font-weight-regular"
+                            >
+                                Vegan
+                            </h3>
+                            <div class="black--text">
                                 The vegan diet abstains from the use of animal
                                 products. The vegan diet does not consume meat,
                                 diary products, eggs or any all other
@@ -141,17 +156,16 @@
 <script>
 export default {
     name: 'HomePlans',
-        methods: {
+    methods: {
         showRecipes(plan) {
             this.$store.dispatch('getRecipes', plan);
-        }
-    }
-}
+        },
+    },
+};
 </script>
 
 <style scoped>
-.v-card{
+.v-card {
     border-radius: 0 !important ;
 }
-
 </style>

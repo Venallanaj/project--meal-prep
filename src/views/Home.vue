@@ -1,9 +1,9 @@
 <template>
-   <span>
+    <span>
         <home-hero></home-hero>
         <home-details></home-details>
         <home-plans></home-plans>
-   </span>
+    </span>
 </template>
 
 <script>
@@ -12,14 +12,12 @@ import HomeHero from '@/components/HomeHero';
 import HomeDetails from '@/components/HomeDetails.vue';
 import HomePlans from '@/components/HomePlans';
 
-
-
 export default {
     name: 'Home',
     components: {
-    HomeHero,
-    HomeDetails,
-    HomePlans,
+        HomeHero,
+        HomeDetails,
+        HomePlans,
     },
 };
 </script>
